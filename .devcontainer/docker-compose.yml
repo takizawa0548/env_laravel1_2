@@ -29,4 +29,4 @@ secrets:
       - MYSQL_PASSWORD=my
     volumes:
       - ../db/database:/var/lib/mysql
-      - ../db/init:docker-entrypoint-initdb.d
+      - ../db/init:/docker-entrypoint-initdb.d
