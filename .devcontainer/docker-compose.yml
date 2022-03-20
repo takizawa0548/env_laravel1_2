@@ -1,5 +1,5 @@
 version: '3.8'
-secrets:
+services:
   app:
     image: laravel1/app:1.0
     build: ./app
