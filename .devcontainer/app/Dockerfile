@@ -7,7 +7,6 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 RUN apt-get update && apt-get install -y \
 tzdata zip unzip && pecl install xdebug \
 && docker-php-ext-install pdo_mysql \
-&& docker-php-ext-install pdo_mysql \
 && rm -rf /var/lib/apt/lists/*
 
 # タイムゾーンを設定する環境変数

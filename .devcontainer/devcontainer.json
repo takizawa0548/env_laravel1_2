@@ -1,5 +1,5 @@
 {
-    "name":"Laravvel Basic",
+    "name":"Laravel Basic",
     "dockerComposeFile": "docker-compose.yml",
     "service": "app",
     "workspaceFolder": "/var/www/html",
